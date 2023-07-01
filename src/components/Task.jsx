@@ -12,7 +12,7 @@ const  Task= ({task,handleTaskClick,handleTaskDeletion}) => {
 
             <div className='buttons-container'>
                 <button className="remove-task-button" 
-                onClick={()=>handleTaskDeletion(task.id)}>vsf</button>
+                onClick={()=>handleTaskDeletion(task.id)}>X</button>
             </div>
         </div>
     )
